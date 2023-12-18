@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/endgameinitiative/ecosystem.git"
+    "url": "git+https://github.com/endgameinitiative/regenlearnings.xyz.git"
   },
   "author": "Kevin Owocki <ksowocki@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/endgameinitiative/ecosystem/issues"
+    "url": "https://github.com/endgameinitiative/regenlearnings.xyz/issues"
   },
-  "homepage": "https://github.com/endgameinitiative/ecosystem#readme",
+  "homepage": "https://github.com/endgameinitiative/regenlearnings.xyz#readme",
   "dependencies": {
     "next": "^13.0.6",
     "nextra": "latest",
