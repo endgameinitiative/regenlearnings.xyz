@@ -4,9 +4,9 @@ import { DocsThemeConfig } from 'nextra-theme-docs'
 const config: DocsThemeConfig = {
   logo: <span>Ecosystem</span>,
   project: {
-    link: 'https://github.com/endgameinitiative/regenlearnings.xyz/tree/main',
+    link: 'https://github.com/endgameinitiative/regenlearnings.xyz/',
   },
-  docsRepositoryBase: 'https://github.com/endgameinitiative/regenlearnings.xyz/tree/main',
+  docsRepositoryBase: 'https://github.com/endgameinitiative/regenlearnings.xyz/',
   footer: {
     text: 'Ecosystem',
   },
