@@ -1,6 +1,6 @@
-# Ecosystem
+# RegenLearnings.xyz
 
-Ecosystem is a framework for documenting regen learnings links.  View it at https://regenlearnings.xyz
+This is a framework for documenting regen learnings links.  View it at https://regenlearnings.xyz
 
 ## Docs stack
 

@@ -2,17 +2,17 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
-  logo: <span>Ecosystem</span>,
+  logo: <span>RegenLearnings.xyz</span>,
   project: {
     link: 'https://github.com/endgameinitiative/regenlearnings.xyz/',
   },
   docsRepositoryBase: 'https://github.com/endgameinitiative/regenlearnings.xyz/',
   footer: {
-    text: 'Ecosystem',
+    text: 'RegenLearnings.xyz',
   },
   useNextSeoProps() {
     return {
-      titleTemplate: '%s – Ecosystem'
+      titleTemplate: '%s – RegenLearnings.xyz'
     }
   }
 }
