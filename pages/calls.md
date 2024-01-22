@@ -1,7 +1,9 @@
 
-# Call Agenda
+# Call Agendas
 
-## Carl/Kevin Admin
+## 2024/01/25
+
+https://lu.ma/dc4yvr8w
 
 ### Purpose
 
