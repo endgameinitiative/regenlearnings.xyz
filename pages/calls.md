@@ -5,7 +5,11 @@
 
 ### Purpose
 
-to bring together the smartest minds in web3 to create momentum towards web3 public goods through learning.
+bring together the smartest minds in web3 to create momentum towards web3 public goods funding through learning.
+
+if done well,
+1. we will export learnings to the rest of web3.
+2. you will find collaborators in this group.
 
 ### Intersectional Group
 
