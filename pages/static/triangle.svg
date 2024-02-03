@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1080px" height="750px" viewBox="0 0 1080 750" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Publication Header (Large)@1x</title>
+    <g id="Publication-Header-(Large)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="1080" height="750"></rect>
+        <path d="M534.5,90.9464749 L871.370073,660.5 L197.629927,660.5 L534.5,90.9464749 Z" id="Triangle" stroke="#000000" stroke-width="3" fill="#EBEBEB"></path>
+        <text id="A-Priori-Theory" font-family="Arial-BoldItalicMT, Arial" font-size="28" font-style="italic" font-weight="bold" fill="#131415">
+            <tspan x="433.869141" y="75">A Priori Theory</tspan>
+        </text>
+        <text id="Empirical-Data" font-family="Arial-BoldItalicMT, Arial" font-size="28" font-style="italic" font-weight="bold" fill="#131415">
+            <tspan x="97.7382812" y="694">Empirical Data</tspan>
+        </text>
+        <text id="🪄-New-Insights-✨" font-family="AppleColorEmoji, Apple Color Emoji" font-size="28" font-weight="normal" fill="#131415">
+            <tspan x="419.076172" y="449">🪄</tspan>
+            <tspan x="447.076172" y="449" font-family="Arial-BoldItalicMT, Arial" font-style="italic" font-weight="bold"> </tspan>
+            <tspan x="454.855469" y="449" font-family="Arial-ItalicMT, Arial" font-style="italic">New Insights </tspan>
+            <tspan x="622.923828" y="449">✨</tspan>
+        </text>
+        <text id="Program-Design" font-family="Arial-BoldItalicMT, Arial" font-size="28" font-style="italic" font-weight="bold" fill="#131415">
+            <tspan x="765.862305" y="694">Program Design</tspan>
+        </text>
+    </g>
+</svg>
