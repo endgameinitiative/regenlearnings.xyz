@@ -33,14 +33,6 @@ const config: DocsThemeConfig = {
         />
       </>
     )
-  },
-  sidebar: {
-    links: [
-      { href: '/index', label: 'Home' },
-      { href: '/calls', label: 'Call Notes' },
-      { href: '/data-bootcamp', label: 'Data Bootcamp' },
-      { href: '/learnings', label: 'Learnings' }
-    ]
   }
 }
 

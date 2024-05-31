@@ -1,6 +1,7 @@
 {
   "index": "Home",
-  "calls": "Call Notes",
-  "data-bootcamp": "Data Bootcamp",
-  "learnings": "Learnings"
+  "calls": "Calls",
+  "learnings": "Learnings",
+  "data-bootcamp": "Data Bootcamp",  
+  "transcripts": "Call Transcripts"
 }
