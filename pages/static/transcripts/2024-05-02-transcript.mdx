@@ -1,0 +1,259 @@
+# 2024-05-02 RegenLearnings.xyz Call Summary
+
+## 🌟 Regen Learnings Introduction
+
+The vision for Regen Learnings is to create a social space where people can collaborate on creating learnings about different ways to fund public goods in the Web3 ecosystem.
+
+## Vision and Goals
+
+- Create a social group that intersects with apriori theory, empirical data, and public goods funding program design. 
+
+- Accelerate public goods in the Regen movement. 
+
+## Current Progress and Future Plans 
+
+- 70 people on the call three months ago, now down to 14 people actively working on the project. 
+
+- Plans for an event at EthDenver to bring people together and discuss grant programs. 
+
+## 💡 New Developments in Retro Funding 
+
+## Changes in Retro Funding 
+
+- Retro PGF is changing the game dynamics, moving from voting on individual projects to voting on impact metrics. 
+
+- Open Source Observer is helping to come up with impact metrics, a challenging problem in the space. 
+
+## Impact Metrics and Community Involvement 
+
+- The challenge is to create good impact metrics that aren't easily gamed. 
+
+- Community involvement is crucial in developing and refining these metrics. 
+
+## 1. 📊 GGWarpped and Technical Details - Pitched by Rohit Malekar
+
+## Introduction to GGWarpped - https://ggwrapped.gitcoin.co/
+
+- An app that provides a visual storytelling for donors to see their impact across different rounds. 
+
+- Users can enter their wallet address to see aggregated and detailed data on their donation journey. 
+
+- There is an eastern egg hidden in the page, if you go at the bottom, it will help you recollect your past favorites that you may have contribute it too, which some of them are also in GG20, so if you haven’t voted this time around it will give you a knotch to revisit them as well.
+
+## Technical Details 
+
+[Streamlit](https://ethereumgrantsdata.streamlit.app/) - A platform that offers an easy way to present Python code through visual libraries. 
+
+Amazon EC2 instance	- Used to deploy the app due to performance issues with Streamlit's free Cloud version. 
+
+## Data Sources 
+
+- Gitcoin grants data from GR1 to current rounds. 
+
+- Regen Database and indexer 
+
+- Data is backed through the regen data base, thanks to Umar's setup. 
+
+## Future Enhancements 
+
+- Ability to enter multiple addresses, on the back-log. 
+
+- Integration with Farcaster social graph to show Gitcoin grants history and social network overlap. 
+
+## 🤔 Questions and Discussion 
+
+- What would be the use case for entering multiple addresses?## 🚀 Gitcoin Development Roadmap 🚀 
+
+## Decentralizing Requirements and Building 
+
+- Goal: decentralize both the requirements and the building of the Gitcoin experience 
+
+- Ideas: 
+
+    * Create a public backlog for the experience on both the requester and builder sides 
+
+    * Encourage more builders from the community to create PRs and add enhancements to the experience 
+
+    * The code is already opensource so everyone can fork it and improve what ever it needs to and pitch in with ideas 
+
+## Recommendations Feature 
+
+- Current implementation: basic recommendation at the bottom of the app, which looks at previous donation history and suggests favorites 
+
+- Future development: tap into collective intelligence and signals in the data to provide more relevant recommendations 
+
+    * Examples: 
+
+        * Look at top favorites and find out who else in the universe of Gitcoin is supporting them 
+
+        * Identify what they support that the user hasn't and exploit their blind spots 
+
+## Forking and Deploying the Code 
+
+- Capability: fork the code and deploy a custom app using Streamlit 
+
+- Benefits: 
+
+    * Easy to test and deploy a custom app locally 
+
+    * Great shortcut for people learning to create their own application 
+
+Rohit shared a gitcoin proposal to considerate:  https://gov.gitcoin.co/t/pre-proposal-grantee-guide-a-profiling-tool-for-prospective-grant-applicants/18716 Share Slido again: https://app.sli.do/event/7REjtcikd1raNwWf91xRGD
+
+
+## 2. Graven Prest - Shared cohort for running QF round
+
+He shared a cohort for running a QF round, first button will give you access to this program https://linktr.ee/streamingqf?lt_utm_source=lt_share_link#369825496
+
+
+## 3. Metric-Based Evaluation 📊 - Pitched by Jonas Seiferth - Works at OPTIMISM at Retrofunding
+
+The idea behind metric-based evaluation or voting is that voters will vote via metrics instead of voting on individual projects. This approach allows voters to express what contributions or types of impact they value for the collective.
+
+You can check out this [article](https://optimism.mirror.xyz/Bbu5M1mTNV2Z637QxOiF7Qt7R9hy6nxghbZiFbtZOBA)
+
+
+## How it Works 
+
+- Voters select different metrics and weigh them before casting their vote. 
+
+- The metrics are applied across all projects, and the OS Observer team, Gitcoin rapid iteration team, Agora Squad, and internal design team work together to ensure the data flows smoothly. 
+
+- The voting infrastructure includes a ballot page where voters can see all the metrics they selected and how they impact the distribution of OP among projects. 
+
+- Voters can explore different metrics, see how each project performs against these metrics, and leave comments to discuss with fellow voters. 
+
+## Key Components 
+
+    * Metrics	-    Dimensions used to evaluate projects, such as economic layer metrics, social metrics, growth metrics, and quality metrics. 
+
+    * Voter Selection    -	Voters select and weigh metrics to express their preferences. 
+
+    * Balanced Scoring    -    The platform applies the selected metrics across all projects to determine the distribution of OP. 
+
+## Ensuring Input-Oriented vs. Output-Oriented Metrics 
+
+    "An input metric is, for example, 'I released some contracts.' An output metric is, for instance, 'I have a contract with X number of users.'"
+
+## Output-Oriented Metrics: 
+Rewarding projects based on actual impact, such as the number of users or revenue generated.
+
+## Input-Oriented Metrics: 
+Rewarding projects based on effort, such as releasing contracts or deploying code.
+
+## The Design Process 
+
+- The OS Observer team creates a set of dimensions for metrics, including economic layer, social, growth, and quality metrics. 
+
+- The community provides input on which dimensions to focus on during a specific round. 
+
+- The team curates the feedback to determine the most valuable impact metrics. 
+
+- The foundation works towards open metagovernance, allowing voters to define what impact looks like and how to measure it. 
+
+## Addressing the Burden of Informed Opinions 
+
+    "One of the biggest problems in any sort of grant round is knowing all the projects and being able to have informed opinions on them." - Jonas Seiferth
+
+Using impact metrics in voting can lower the burden on voters, as they only need to learn about the metrics rather than each individual project. This approach allows voters to leverage others' expertise and make more informed decisions.## Impact Metrics and Gamification 📊
+
+## Context 
+The discussion revolves around the development of impact metrics for onchain projects, with a focus on preventing gamification and ensuring that the metrics are meaningful and difficult to manipulate.
+
+## Gamification Risks
+- Goodhart's Law: When a measure becomes a target, it ceases to be a good measure. This law highlights the risk of gamification, where individuals or projects manipulate metrics to achieve a desired outcome rather than focusing on genuine impact. 
+
+- Gaming the system: Projects may try to optimize metrics at the expense of actual impact, leading to a distorted view of their performance. 
+
+## Designing Impact Metrics 
+
+- Snapshot approach: Take a snapshot of project data before the metrics are announced to prevent last-minute manipulation. 
+
+- Multi-faceted metrics: Use a set of metrics that balance each other out, making it difficult to game the system. For example, combining metrics for new user growth and retained users. 
+
+- Badge holder feedback: Allow badge holders to weigh in on the importance of different metrics, ensuring that the system is not solely reliant on quantitative data. 
+
+## Addressing Concerns 
+
+    "Even then, what you tend to see is that there's a huge correlation with people just voting for the most popular ones." - Carl Cervone
+
+- Popularity bias: The current system can be biased towards popular projects, rather than those with genuine impact. 
+
+- Metric limitations: No single metric can capture the complexity of a project's impact. A combination of metrics is necessary to get a comprehensive view. 
+
+## Building a Community of Impact-Minded Individuals 
+
+- Intersection of public goods and data: There is a lack of individuals who care about both public goods and data analysis. Building a community that bridges this gap is essential for developing meaningful impact metrics. 
+
+- Sports and finance analogies: The intersection of sports and data led to the development of Moneyball, while the intersection of finance and data led to the creation of hedge funds. Similarly, the intersection of public goods and data can lead to innovative solutions. 
+
+## Call to Action 
+
+- Participate in the bounty: Propose onchain impact metrics and get rewarded for your work, check out the bounty: Earn OP rewards for proposing onchain impact metrics [here](https://docs.opensource.observer/blog/request-for-impact-metrics) 
+
+- Utilize available data sources: Leverage data from sources like Farcaster, ENS, Lens, and GitHub to develop and test impact metrics. 
+
+Data Source	    -        Description 
+
+Farcaster	    -        Onchain data for forecasting and analysis 
+
+ENS	            -        Ethereum Name Service data for identity and reputation 
+
+Lens	        -        Data for social media and community engagement 
+
+GitHub	        -        Data for open-source development and collaboration 
+
+By working together to develop meaningful impact metrics, we can create a system that rewards genuine impact and discourages gamification.## 🔓 Impact Metrics and Voting Systems 🔓
+
+In the development of voting systems, the focus has shifted from creating super expressive systems to allowing people to constantly express their preferences in different ways. This is achieved through the use of database models that make sense of the expressed preferences.
+
+## 🔄 From Voting Systems to Database Models 
+Instead of going to a specific place to explicitly tell us what you like, you can just use a project, and through that, we know that you like the project. Similarly, if you're using a library, we can pull that information from your dependency tree or repo.
+
+## 📈 Signaling Impact
+The goal is to make it easier for people to participate in signaling what they find impactful. This allows for the creation of a well-calibrated set of 15 to 20 metrics that can be used for voting.
+
+## 📊 Metrics and Meta-Metrics 
+There is a possibility of having metrics around metrics, also known as meta-metrics. These could include gameability metrics or other types of metrics that measure the effectiveness of the existing metrics.
+
+    "The best metric we'll get right now is basically how much weight badge holders put on any one of these metrics." - Jonas Seiferth
+
+Badge holders can put weights on the metrics, and the metrics that are heavily weighted will send a signal to builders that those are the things that badge holders care about.
+
+## 📅 Data Boot Camp Update 
+
+The next Data Boot Camp is scheduled for Thursday, May 9th, at 12:30 PM NYC time. A few people are still actively involved, including Santiago, who is creating categories of Open Source Software modeled off the NES system.
+
+## 📊 Retrofunding and Gameability 
+The system is adaptive, and the goal is to anticipate where things are going and build in that area. Ideally, this gets rewarded with more retrfunding.
+
+## 💻 Gitcoin Grants and RetroPGF Experiments 
+
+There are various Gitcoin Grants and RetroPGF experiments happening, including Filecoin RetroPDF and Pocket Network's RPGF experiment.
+
+## 📣 GG20 and Community Rounds - Pitched by Sejal Rekhan
+
+GG20 is happening, and the Gitcoin Grants program is back to its roots with an OSS round that has a $1 million matching pool. There are also five Community rounds that are running, and a council was formed to decide who will be invited to run Community rounds.
+
+Community Round	Description
+OSS Round	$1 million matching pool
+Community Round 1	-    Invite-only, decided by council
+Community Round 2	-    Invite-only, decided by council
+Community Round 3	-    Invite-only, decided by council
+Community Round 4	-    Invite-only, decided by council
+Community Round 5   -    Invite-only, decided by council 
+
+## 📊 EASYRPGF Round Update 
+
+The first pilot cohort is going on, and participants include Lip P2P, Filecoin Celo, and Pocket Network. The rounds are going smoothly, and there are many learnings happening.
+
+Ecosystem	    -    Stage
+Lip P2P	        -    Nomination Phasehttps://blog.libp2p.io/2024-04-08-libp2p-rpgf/
+
+Filecoin	    -    Voting Phase https://filecoin.io/blog/posts/unveiling-fil-retropgf-1-retroactively-funding-filecoin-public-goods/
+
+Celo	        -    Application Phase https://mirror.xyz/celopg.eth/OtB1dFEBy8EF3JOddMLP1Vw-lLmtNjjo6nlJ9GRu5IA
+
+Pocket Network  -  	Just announced https://x.com/POKTnetwork/status/1785365375439261826
+
+The deadline for Celo's application phase is May 8th.
