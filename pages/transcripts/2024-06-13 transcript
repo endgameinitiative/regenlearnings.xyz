@@ -1,0 +1,179 @@
+# Regen Learnings 📚
+## Introduction
+Welcome to the monthly Regen Learnings call, a place for people who want to learn in public and share ideas related to public goods funding. The intersection of priority theory, empirical data analysis, and program design is where the magic happens.
+
+Agenda:
+- Kevin's opening remarks
+- Update on the data side by Carl
+- Featured guest speaker: Ben West from Thrive Protocol
+- Slido for crowdsourcing presentations
+- Updates from the community
+
+# Background
+"By default, people would be learning within their own silos, within their own organizations, within their own companies. But because Web3 is a network and a movement, we want to create common knowledge between Gitcoin, Optimism, Giveth, Thrive Protocol, and all of the different organizations. When we learn in public, we force multiply the learnings across the ecosystem and build a stronger regen movement."
+
+### Data Side Updates 📊
+Carl presented the following:
+- Update on metrics for retro funding for Optimism
+- Easy Retro Pgf being used for own rounds
+- Conversations with Thrive and others in the ecosystem to take the best of this and use it there
+- Cross-pollination happening
+
+#### Funding Round 4 Preview 🚀
+- Difference: instead of selecting projects, people will select metrics, and the metrics will inform the portfolio of projects to support
+- Funding allocation will happen through a script
+- 500 applications, with human and quantitative eligibility checks
+- 250 projects expected to make it through
+- Metrics will be finalized, and voting will happen at the end of the month and into July
+
+#### Testing App Demo 📱
+- Users can construct a ballot by adding a set of metrics to it
+- Users can decide which metrics they care most about and combine them
+- Concept of a trusted user: a user whose preferences are given more weight in the funding allocation
+
+#### Data Model for Project Comparison 📊
+A comprehensive data model was built to clean and process data from multiple sources, allowing for comparisons across various projects. The model consists of:
+
+- 6 different chains: Op Mainnet, Bas Zoramine, Metal Fra, and 3 others
+- Data ingestion: Grabbing data from multiple sources and categorizing deployers and factories
+- Event types: Identifying and defining event types
+- Consolidation: Consolidating data into a few tables with relevant metrics
+#### API Endpoint
+An API endpoint was created to provide metrics for any given project. The endpoint allows developers to retrieve metrics using a simple API call.
+
+#### Defining Custom Metrics
+Users can define their own metrics using a calculation formula. For example, the transaction count metric can be calculated and used to power an app or grants program.
+
+### Trusted User Model 🤝
+Carl shared a new project: The trusted user model, is based on aggregating different trust signals, including:
+- Social graph-based signals
+- On-chain activity-based signals
+- Graph analysis-based signals
+The model helps identify trusted users and compare their transactions to the overall project transactions.
+
+#### Trust Signals
+There are 5 different trust signals being used, and a user must meet 2 out of the 5 criteria to be considered a trusted user. The signals are:
+* Forecaster Data:  Early forecaster user with a top 50,000 IC contrust glob rank
+* Linked Addresses:  Addresses linked to forecaster ID
+* Gitcoin Passport:  Score of 20 points or higher
+* Optimist NFT:  Holder of the Optimist NFT with an attestation-based web of trust
+* Badge Holder Web of Trust:  Part of the badge holder community with a social graph-based trust network
+
+#### Curation Algorithms 📈
+Curation algorithms are being explored to help users discover projects and services. One example is the IcanTrust algorithm, which is being protocolized by Karma3Labs.
+
+The IcanTrust algorithm uses a user's social network to identify projects and contracts that are most used by their friends. This can help users discover new projects and services based on their social connections.
+
+#### Future Plans
+Future plans include running different curation algorithms on top of the data and creating a voting system based on social networks. This can help users identify projects that align with their interests and values.
+
+
+### 🤝 Thrive Protocol Overview
+Thrive Protocol is a project that has been around for a couple of years, initially known as Thrivecoin. Its primary goal is to work with ecosystems on relatively large grant or bounty programs to attract fund and scale top talent and reward them at milestones of value creation.
+
+#### Grants = Growth + Trust but Verify
+The Thrive Protocol focuses on building a repeated game where the goal is to get better at setting up grant programs every time. The protocol aims to have the big picture lens on, remembering that this is a repeated game.
+
+#### Thrive Protocol in Action
+Thrive Protocol has been involved in working with the Arbitrum community, applying the same thinking to the Polygon community. The protocol has put 200,000 𝑑𝑖𝑟𝑒𝑐𝑡𝑙𝑦 𝑖𝑛𝑡𝑜 𝑟𝑜𝑢𝑛𝑑𝑠 𝑖𝑛𝑡𝑜 𝑡ℎ𝑒 𝑜𝑝𝑒𝑛−𝑠𝑜𝑢𝑟𝑐𝑒 s𝑜𝑓𝑡𝑤𝑎𝑟𝑒 𝑟𝑜𝑢𝑛𝑑𝑠 𝑎𝑛𝑑 𝑡ℎ𝑒 𝑐𝑜𝑚𝑚𝑢𝑛𝑖𝑡𝑦 𝑟𝑜𝑢𝑛𝑑𝑠, 𝑎𝑠 𝑤𝑒𝑙l 𝑎𝑠 𝑎𝑙𝑙𝑜𝑐𝑎𝑡𝑖𝑛𝑔 𝑎𝑛𝑜𝑡ℎ𝑒𝑟 50,000 directly into incentives.
+
+Group	        Incentives
+Grantees      Program directors, community members, and content creators
+Incentives    Drive increased participation and maximize potential impact and effect of the round
+
+#### Assessment of Impact
+The secret sauce of Thrive Protocol is the assessment of impact, which has now started doing for GG20 in a partnership with Karma. The assessment involves setting up a Karma Milestone for each project, offering incentives to create Milestones, and attaching a pot of gold at the end of the Rainbow ($100,000 bonus) broken down to the top 10%, 20%, and 30%.
+
+#### The Flywheel
+Thrive Protocol creates a layer of incentives and feedback loops to ensure that funding is not just given but also evaluated for its impact. The flywheel idea is to create a cycle of incentives and feedback loops to ensure that funding is effective.
+
+"Trust but verify" is the idea that you're not just funding stuff, but you're seeing what was done with the money, and it's good work getting done.
+
+#### Partnership with Karma
+The partnership with Karma involves building out new infrastructure to apply a rubric and not just a completed or not completed evaluation. Human assessors evaluate the work being done, providing a more accurate assessment of impact.
+
+#### The Future of Thrive Protocol
+The goal of Thrive Protocol is to attract fund, scale top talent, validate that work, and scale what's actually working. The results of the GG20 experiment will largely be seen in the new set of information that people have going into GG21.
+By providing a system for tiers of reviewers, Thrive Protocol rewards reviewers for their time and energy, giving them higher rewards the more consistently they are. This unique approach creates a more accurate assessment of impact, providing a proof of work 2.0 system.
+
+#### Decentralized Review Process 📝
+Consensus and Feedback
+The decentralized review process involves providing feedback that is not limited to the consensus view. This is where the "who watches the Watchman" idea comes in, ensuring that reviewers have an economic incentive to provide good, meaningful reviews.
+
+#### Feedback Loops and Incentives
+Additional feedback loop: reviewers evaluate comments from other reviewers who are not part of the consensus view, ranking the quality of their comments.
+Feedback is aggregated and processed through an AI model to generate a set of feedback for grantees.
+Incentivizing the right kind of work: reviewers are paid for their expertise and the quality of their work, not the amount of time they put in.
+
+#### Reviewer Tiers and Randomization
+Two-tiered system: Tier 1 reviewers are paid 100 ARB, while Tier 2 reviewers are paid 10 ARB.
+Randomized reviews: reviewers are randomly assigned to review proposals, and their scores can move them up or down between Tier 1 and Tier 2.
+
+#### Impact Certification at Scale
+Building teams of reviewers with economic incentives and finding ways to fund that work because of the benefit to the community.
+Creating feedback loops on various programs to help ecosystems allocate their resources more efficiently.
+
+#### Pluralistic Grants Program
+- Request for proposals process: over 100 proposals were submitted, and 60 were shortlisted.
+- Initial review: 20 top candidates were selected, and each received 1,000 ARB to build out a more detailed second-stage application.
+
+Review Process Breakdown
+Stage    Number of Proposals    Review Process
+Initial        100+	            Initial review, 60 shortlisted
+Second         60               40 reviewers, 5 reviews each
+Final          20               Reviewers scored proposals, and funding decisions were made
+
+The process is currently managed on spreadsheets, but the goal is to build it into the platform for scalability.
+A stage gate review is underway to improve the grants functionality.
+
+#### Results Field
+- Combined score of each proposal, including median score required and up/down yes/no vote.
+- Rubric and scoring system were used to evaluate proposals, with both quantitative and qualitative feedback.
+
+#### Lessons Learned
+- Harnessing the wisdom of the crowd can lead to different decisions than those made by individuals.
+- The process identified patterns in how reviewers worked, and adjustments were made to ensure efficient funding allocation.
+
+#### API Integrations
+We're talking about a whole bunch of different API integrations that will drive information directly into the Thrive platform for our human evaluators and assessors.
+There's also some stuff that we're automating the assessment of.
+
+#### Reviewers and Scoring
+- The reviewers are public information, but what score they gave or what comment was derived from them is not public.
+- We're not making the scores that one reviewer is giving public available to any other reviewers.
+- We're planning to integrate a phase after the initial scoring is done where we bring people together and have conversations about Lessons Learned or key takeaways.
+
+#### Community Involvement
+They're open to feedback about the process.
+If anybody would like to kick the tires and try being a reviewer, we'd love to have more people involved.
+Any feedback about the process can be added directly in the governance forum posts.
+
+### Data Analysis of Gitcoin Grants Round 20 📊 by Armand
+Arman took on the task of analyzing the open-source observer data set with the Gitcoin data set to explore and see what insights could be gained. This report is a summary of his findings.
+
+#### Analysis of Total Donation and Commit Count
+- Total Donation: The sum of total amount donated towards each project.
+- Commit Count: The number of commits made to each project.
+#### Correlation between Total Donation and Commit Count
+The analysis shows a positive correlation between the total donation and commit count for each project.
+Web.py has the highest commit count and total donation, indicating a strong community involvement.
+#### Analysis of Contribution by Project Name
+The graph shows the total donation and contributor count for each project.
+Web.py and nft storage have the highest contributor counts.
+
+#### Insights and Observations
+"It's interesting to see how many commits people made and how many total donations were made for each of these projects."
+
+- The analysis highlights the potential for growth and development in each project.
+- The data can be used to answer questions such as:
+  - Do projects continue to develop if they continue to participate?
+  - Does their velocity increase over time?
+  - Can they grow the number of contributors and maintain support over time?
+#### Future Directions
+- The analysis can be expanded to include more rounds of data to identify trends and patterns.
+- Interactive graphs and 3D plots can be used to enhance the visualization of the data.
+- The data can be combined with other sources to gain more insights.
+
+For those of you who are going to be at ETH CC in Brussels next month, there is a little get together that we're putting on, and you can get register for that and it’ll be talking all about Grant Fuckups, so come and share all your stories: The Good, The Bad and The Ugly of doing grants, and enjoy.
+
+Stay tuned for more exciting updates as we continue to learn, share, and grow together in the Web3 ecosystem. 🚀
