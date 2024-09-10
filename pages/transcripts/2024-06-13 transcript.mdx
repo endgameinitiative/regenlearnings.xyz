@@ -1,4 +1,74 @@
-# 2024-06-13 RegenLearnings.xyz Call Summary
+# 2024-06-13 RegenLearnings.xyz 
+
+# Call Summary
+
+## Call notes:
+Welcome to the latest Regen Learnings call, your monthly dose of fresh insights into public goods funding, Web3 innovations, and community-driven growth. Here’s what went down in our latest session, packed with updates, demos, and future plans.
+
+1. Intro 
+Kevin set the tone with a warm welcome and agenda:
+    - Metrics for retro funding for Optimism.
+    - Easy Retro Pgf used for funding rounds.
+    - Collaborative efforts with Thrive and other ecosystem players to enhance cross-pollination of ideas.
+
+2. Carl presented his recent work helping Optimism to use metrics for Retro Funding 4:
+The big difference between the previous round and this new one is:  Instead of selecting projects directly, metrics will guide which projects receive support, so basically you can select the metrics you care the most and put them in your portfolio, combine them in your ballot and giving each a weight and see how those metrics apply to the project you are reviewing and supporting, and the script that will decide how to allocate the funding.
+    - The round has completed the sign up phase::
+    - Over 500 applications expected.
+    - Both human and algorithmic checks to narrow down to 250 projects.
+    - Voting on finalized metrics begins at the end of the month.
+
+#### Testing App Demo 
+    Users can now build a ballot by choosing metrics that matter most to them, giving more weight to trusted users’ preferences.
+#### Community Updates 
+    Community members shared their cool projects and updates, fostering a vibrant, collaborative atmosphere.
+#### Data Model for Project Comparison 
+    We’ve built a robust data model to clean and process data from six different blockchain chains, offering comprehensive project comparisons. An API endpoint now allows easy retrieval of project metrics.
+#### Defining Custom Metrics & Trusted User Model 
+    Users can create custom metrics, enhancing our data-driven approach. The trusted user model aggregates various trust signals to identify and give more influence to reliable users.
+
+Also, Carl shared that they are exploring running Curation Algorithms 
+We’re exploring algorithms like the EigenTrust to help users discover projects based on social connections. This approach promises a more personalized and effective way to find new and exciting projects.
+
+    Question from Umar Khan:  How do you define trusted users?
+    Carl:  Great question, there’s been a huge amount of feedback around it, there are 4 different trust signals that are being ingested:
+        - Have a Farcaster ID of 20939.
+        - Have a Gitcoin Passport of 20 points or higher.
+        - Have a Karma3Labs EigenTrust GlobalRank in the top 50.000 of Farcaster users, or
+        - Hold a soulbound NFT (in this particular case Optimist NFT) in their wallet.
+
+For the sake of experimentation we are doing another Data Challenge, he was hoping to be able to announce just applying these kind of reputation models to the on-chain data, if anybody wants to experiment there will be some bounties available. We’ll post the link on the RegensLearnings channel once it comes out.
+
+3. Thrive Protocol Overview:  Ben West from Thrive shared insights into Thrive Protocol’s mission to attract and reward top talent through structured grant programs:
+    - Thrive Protocol works with ecosystems with relatively large grant or bounty programs to attract fund and scale top talent in the world at the Milestone of value creation.
+    - Focus on “Trust but verify” to ensure effective use of funds.
+    - Started working with the Arbitrum community, now we are starting to apply the same thinking with the Polygon community.
+    - Partnership with Karma to improve impact assessment through human evaluators.
+
+#### Decentralized Review Process.
+
+Refining our review process to ensure fairness and efficiency:
+    - Feedback loops and economic incentives for reviewers.
+    - Two-tiered review system with randomization to maintain impartiality.
+    - Aggregated feedback processed through AI for grantees.
+
+At the moment, the whole process is being done in a spreadsheet, as they are testing out the methodology and concept behind what it is that they are doing, to get to a place where they are able to build this into a platform and do it in a scalable fashion.  Recently finished their stage gate review looking at the grants functionality, that will basically be what replaces these spreadsheets, and they may be able to use it with Polygon, who’s just came on board a few days ago.
+
+    Carl asked: Are the reviewers, is that public information or is that kept private so that people don’t interfere with them?
+    Ben: So, who the reviewers are overall is public, who’s reviewing which project is not, or what comment was derived by from them is not.  The intention is to avoid any kind of Shenanigans, like people bribing people, people attaching people.  Also we are not making the scores that one reviewer is giving public available to any other reviewers, this is somewhat different than the way we had been doing eligibility decisions at Gitcoin, where reviewers had a shared sheet and would actually have discussions and sort of shared learnings.  I think we’ll start integrating a phase after the initial scoring is done, where we’ll bring people together and have conversations about lessons learned or key takeaways, and get feedback about the process overall and discuss the decisions that are being made amongst everybody involved once the scores have come in, that is a step we didn’t do this time but we’ll have sort of end of the round wrap-up.
+
+Ben invited to anyone who is willing to become a reviewer, they are always open to have more people involved, and if you have any feedback or comments about the process please share them in any of the governance forum posts at Gitcoin, Arbitrum or Polygon, we are really open to any critique and feedback.  Here goes a link where to [head](https://forum.arbitrum.foundation/t/decentralized-review-process-summary-thank-arb-milestone-1b/24877).
+
+
+4. Gitcoin Grants Round GG20 Data Analysis:  Arman’s analysis revealed a positive correlation between total donations and commit counts, highlighting the projects with strong community involvement. Future directions include expanding data analysis for deeper insights and trend identification.
+
+Here is the link to his [work](https://github.com/sirlupinwatson/GG20xOSO).
+   
+    Umar Khan thanked for his work and shared he’s especially interested to know what you find, and share it with other folks at Gitcoin, hopefully we can spread some more insights, and opened the door to jam on some stuff and collaborate together.
+
+Before wrapping up the session, Carl launched the invitation to all who are going to be at ETH CC in Brussels next month, there is a little get together that we're putting on, and you can get register for that, and it’ll be talking all about "Grant Fuckups", so come and share all your stories: The Good, The Bad and The Ugly of doing grants, and enjoy.
+
+# Transcript
 
 ## Introduction
 Welcome to the monthly Regen Learnings call, a place for people who want to learn in public and share ideas related to public goods funding. The intersection of priority theory, empirical data analysis, and program design is where the magic happens.
